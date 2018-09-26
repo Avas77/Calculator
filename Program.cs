@@ -10,6 +10,15 @@ namespace Calculator
     {
         static void Main(string[] args)
         {
+            double a = 10;
+            double b = 5;
+            double sum = Add(a, b);
+            Console.WriteLine("sum = {0}", sum);
+        }
+
+        static double Add(double a, double b)
+        {
+            return a + b;
         }
     }
 }
